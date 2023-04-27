@@ -69,7 +69,8 @@ build() {
     --with-ldap \
     --with-libcap \
     --with-pidfile=/run/cyrus-master.pid \
-    --with-syslogfacility=MAIL
+    --with-syslogfacility=MAIL \
+    --with-sphinx-build=no
 
   make
 }
